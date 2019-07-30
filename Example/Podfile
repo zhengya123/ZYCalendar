@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZYCalendar_Example' do
+  pod 'ZYCalendar', :path => '../'
+
+  target 'ZYCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
