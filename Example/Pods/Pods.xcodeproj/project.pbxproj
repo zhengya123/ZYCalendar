@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1871DCDE7198378B6CC8B179413F8D60 /* ZYCalendar */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3C74226B8738B0516A7F33341F8D8227 /* Build configuration list for PBXAggregateTarget "ZYCalendar" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ZYCalendar;
+			productName = ZYCalendar;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		07161F85F590DBD741E0006C20545DA0 /* Pods-ZYCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF83A169066558C39CCD24A22B1C004 /* Pods-ZYCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1809F4C072B6F499549172919C485820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		67E2DF972954C95400939E20DF24FA40 /* Pods-ZYCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43176060649BC0AD4472FB5B1679C014 /* Pods-ZYCalendar_Example-dummy.m */; };
+		7C623D4616B816BF8C3767B9068ACF0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D0AA1F173B5A2A24EFF6294224F7BBD3 /* Pods-ZYCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C617AC76808480A87102B5E40EDFD /* Pods-ZYCalendar_Tests-dummy.m */; };
+		FD45B383234C0E500F7726004EE27CD6 /* Pods-ZYCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D72976028940DD1A1984D044E47F6AA /* Pods-ZYCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23B9C5CB69164D8C802EB91725C79648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8654CAF5EC1B3E63FE826CCF28B1BE27;
+			remoteInfo = "Pods-ZYCalendar_Example";
+		};
+		882471E3903C440E9F57AB5F5C0DC3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1871DCDE7198378B6CC8B179413F8D60;
+			remoteInfo = ZYCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BD73EFE6C4BD2B43F8B3BD30536E42 /* Pods-ZYCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
+		1D5C617AC76808480A87102B5E40EDFD /* Pods-ZYCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		1E55794DE200CF7D8349B31412E8D612 /* Pods-ZYCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DDE5141A6BEED7486ECAC29950AD37F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38362BC8BE7F395D5FE12FD4592D06C0 /* Pods_ZYCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43176060649BC0AD4472FB5B1679C014 /* Pods-ZYCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		452A1BD23577B421458DE7E6454D6BE2 /* Pods-ZYCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68431C57A88DCA907BA49377EC4981D2 /* Pods-ZYCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		6D72976028940DD1A1984D044E47F6AA /* Pods-ZYCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		71C053B3D1328560E3D9B66C160714EB /* ZYCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZYCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		76CF9BE8004AD1B429167927A3F74DAE /* Pods_ZYCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8331C102AE9443035CFCC7FF51B57801 /* Pods-ZYCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF83A169066558C39CCD24A22B1C004 /* Pods-ZYCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		8DD983FA202AD22F601E99309D1D1155 /* Pods-ZYCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		8F6203118DA8059FB167D72F71EA5B58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9909E21281880900CA45662EBB29F11E /* Pods-ZYCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAA287F3051357049DA646BB8D8D7715 /* Pods-ZYCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABD147BCF03D984B0A94B855DE2D167B /* Pods-ZYCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		B1C9ACE52E2C1AA3F2F3C9DF40701D8C /* Pods-ZYCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE08959BF4E97463AA1C05CE4D725A90 /* ZYCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYCalendar.xcconfig; sourceTree = "<group>"; };
+		D90164ED471F5B54672086E373A4E11A /* Pods-ZYCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEE633D30C6F44A630578D501FDD70D7 /* Pods-ZYCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3231921EA6516E8EC4C4AB0CCB328739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C623D4616B816BF8C3767B9068ACF0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889D947852BEBB353743A9586C979C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809F4C072B6F499549172919C485820 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BDEDF2F6B66CBC762C5C6C24EC3C20 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2DDE5141A6BEED7486ECAC29950AD37F /* LICENSE */,
+				8F6203118DA8059FB167D72F71EA5B58 /* README.md */,
+				71C053B3D1328560E3D9B66C160714EB /* ZYCalendar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3206C2F315DDCAEEFB14E79A19FA8472 /* Pods-ZYCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ABD147BCF03D984B0A94B855DE2D167B /* Pods-ZYCalendar_Example.modulemap */,
+				1E55794DE200CF7D8349B31412E8D612 /* Pods-ZYCalendar_Example-acknowledgements.markdown */,
+				D90164ED471F5B54672086E373A4E11A /* Pods-ZYCalendar_Example-acknowledgements.plist */,
+				43176060649BC0AD4472FB5B1679C014 /* Pods-ZYCalendar_Example-dummy.m */,
+				8DD983FA202AD22F601E99309D1D1155 /* Pods-ZYCalendar_Example-Info.plist */,
+				8CF83A169066558C39CCD24A22B1C004 /* Pods-ZYCalendar_Example-umbrella.h */,
+				8331C102AE9443035CFCC7FF51B57801 /* Pods-ZYCalendar_Example.debug.xcconfig */,
+				B1C9ACE52E2C1AA3F2F3C9DF40701D8C /* Pods-ZYCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYCalendar_Example";
+			path = "Target Support Files/Pods-ZYCalendar_Example";
+			sourceTree = "<group>";
+		};
+		886700A470D0AFEEDFD1020409B0EB26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC5F7BDF5994608DDA9F4D84F475B6AC /* ZYCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		92E2BC213B6A08B4987B2EF7DBED9950 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE08959BF4E97463AA1C05CE4D725A90 /* ZYCalendar.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYCalendar";
+			sourceTree = "<group>";
+		};
+		957C63835ABE591718E4E519AADEB85A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3206C2F315DDCAEEFB14E79A19FA8472 /* Pods-ZYCalendar_Example */,
+				D7AB42102BF9C8CAE869315D61666135 /* Pods-ZYCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC5F7BDF5994608DDA9F4D84F475B6AC /* ZYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				16BDEDF2F6B66CBC762C5C6C24EC3C20 /* Pod */,
+				92E2BC213B6A08B4987B2EF7DBED9950 /* Support Files */,
+			);
+			name = ZYCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB204697B1279B000DCFC88E5C061079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38362BC8BE7F395D5FE12FD4592D06C0 /* Pods_ZYCalendar_Example.framework */,
+				76CF9BE8004AD1B429167927A3F74DAE /* Pods_ZYCalendar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				886700A470D0AFEEDFD1020409B0EB26 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BB204697B1279B000DCFC88E5C061079 /* Products */,
+				957C63835ABE591718E4E519AADEB85A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7AB42102BF9C8CAE869315D61666135 /* Pods-ZYCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68431C57A88DCA907BA49377EC4981D2 /* Pods-ZYCalendar_Tests.modulemap */,
+				452A1BD23577B421458DE7E6454D6BE2 /* Pods-ZYCalendar_Tests-acknowledgements.markdown */,
+				AAA287F3051357049DA646BB8D8D7715 /* Pods-ZYCalendar_Tests-acknowledgements.plist */,
+				1D5C617AC76808480A87102B5E40EDFD /* Pods-ZYCalendar_Tests-dummy.m */,
+				07BD73EFE6C4BD2B43F8B3BD30536E42 /* Pods-ZYCalendar_Tests-Info.plist */,
+				6D72976028940DD1A1984D044E47F6AA /* Pods-ZYCalendar_Tests-umbrella.h */,
+				DEE633D30C6F44A630578D501FDD70D7 /* Pods-ZYCalendar_Tests.debug.xcconfig */,
+				9909E21281880900CA45662EBB29F11E /* Pods-ZYCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYCalendar_Tests";
+			path = "Target Support Files/Pods-ZYCalendar_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37AA10DF1930EC47215C2535799C5DF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07161F85F590DBD741E0006C20545DA0 /* Pods-ZYCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B169B3E9591FC8C14136960FE767C2D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD45B383234C0E500F7726004EE27CD6 /* Pods-ZYCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B9D20F38046F11C768508C69803ADA4 /* Pods-ZYCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F6597A641A03CC5522965010708DB17 /* Build configuration list for PBXNativeTarget "Pods-ZYCalendar_Tests" */;
+			buildPhases = (
+				B169B3E9591FC8C14136960FE767C2D8 /* Headers */,
+				2329884FEE3576EF22C3769AFD68B23D /* Sources */,
+				3231921EA6516E8EC4C4AB0CCB328739 /* Frameworks */,
+				F7E024D049AB382D71ABCC37FB3B098F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAE53D82DDB7934D25C9744B4A4E959 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYCalendar_Tests";
+			productName = "Pods-ZYCalendar_Tests";
+			productReference = 76CF9BE8004AD1B429167927A3F74DAE /* Pods_ZYCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8654CAF5EC1B3E63FE826CCF28B1BE27 /* Pods-ZYCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E94F69DB8F2B9989311C8914FBDA1D3 /* Build configuration list for PBXNativeTarget "Pods-ZYCalendar_Example" */;
+			buildPhases = (
+				37AA10DF1930EC47215C2535799C5DF8 /* Headers */,
+				ADC0ACC789D5B790A7969CCC361E938F /* Sources */,
+				889D947852BEBB353743A9586C979C23 /* Frameworks */,
+				8CF311AFF957C782F70AA4379D63673D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51EFBFC05355C4073E4F4093EC850A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYCalendar_Example";
+			productName = "Pods-ZYCalendar_Example";
+			productReference = 38362BC8BE7F395D5FE12FD4592D06C0 /* Pods_ZYCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BB204697B1279B000DCFC88E5C061079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8654CAF5EC1B3E63FE826CCF28B1BE27 /* Pods-ZYCalendar_Example */,
+				0B9D20F38046F11C768508C69803ADA4 /* Pods-ZYCalendar_Tests */,
+				1871DCDE7198378B6CC8B179413F8D60 /* ZYCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF311AFF957C782F70AA4379D63673D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E024D049AB382D71ABCC37FB3B098F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2329884FEE3576EF22C3769AFD68B23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AA1F173B5A2A24EFF6294224F7BBD3 /* Pods-ZYCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0ACC789D5B790A7969CCC361E938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E2DF972954C95400939E20DF24FA40 /* Pods-ZYCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DAE53D82DDB7934D25C9744B4A4E959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYCalendar_Example";
+			target = 8654CAF5EC1B3E63FE826CCF28B1BE27 /* Pods-ZYCalendar_Example */;
+			targetProxy = 23B9C5CB69164D8C802EB91725C79648 /* PBXContainerItemProxy */;
+		};
+		C51EFBFC05355C4073E4F4093EC850A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYCalendar;
+			target = 1871DCDE7198378B6CC8B179413F8D60 /* ZYCalendar */;
+			targetProxy = 882471E3903C440E9F57AB5F5C0DC3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5552021B48CCDD2A3464E692DA5293BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C9ACE52E2C1AA3F2F3C9DF40701D8C /* Pods-ZYCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCalendar_Example/Pods-ZYCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCalendar_Example/Pods-ZYCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64EDF1C24A85CAE2F591DBB075B2E5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE08959BF4E97463AA1C05CE4D725A90 /* ZYCalendar.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5B5817990968976EBFA81EE2D8AEA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8331C102AE9443035CFCC7FF51B57801 /* Pods-ZYCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCalendar_Example/Pods-ZYCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCalendar_Example/Pods-ZYCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB7D3E995D1F8D70DE3126A8679BF707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE08959BF4E97463AA1C05CE4D725A90 /* ZYCalendar.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D0A9F409DD8384132DAFBE3747A6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE633D30C6F44A630578D501FDD70D7 /* Pods-ZYCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCalendar_Tests/Pods-ZYCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCalendar_Tests/Pods-ZYCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB156E8CFA0DBD82784BE92F053640B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9909E21281880900CA45662EBB29F11E /* Pods-ZYCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCalendar_Tests/Pods-ZYCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCalendar_Tests/Pods-ZYCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C74226B8738B0516A7F33341F8D8227 /* Build configuration list for PBXAggregateTarget "ZYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7D3E995D1F8D70DE3126A8679BF707 /* Debug */,
+				64EDF1C24A85CAE2F591DBB075B2E5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E94F69DB8F2B9989311C8914FBDA1D3 /* Build configuration list for PBXNativeTarget "Pods-ZYCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B5817990968976EBFA81EE2D8AEA89 /* Debug */,
+				5552021B48CCDD2A3464E692DA5293BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F6597A641A03CC5522965010708DB17 /* Build configuration list for PBXNativeTarget "Pods-ZYCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D0A9F409DD8384132DAFBE3747A6C3 /* Debug */,
+				EB156E8CFA0DBD82784BE92F053640B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

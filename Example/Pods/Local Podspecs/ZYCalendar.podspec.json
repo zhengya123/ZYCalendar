@@ -1,0 +1,22 @@
+{
+  "name": "ZYCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of ZYCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengya123/ZYCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengya123": "919458797@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengya123/ZYCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZYCalendar/Classes/**/*"
+}

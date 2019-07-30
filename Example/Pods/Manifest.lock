@@ -1,0 +1,16 @@
+PODS:
+  - ZYCalendar (0.1.0)
+
+DEPENDENCIES:
+  - ZYCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  ZYCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYCalendar: f667b54f8a8d10953330728d8145343c047394c3
+
+PODFILE CHECKSUM: 6ffd1fd270e17b85d6a25699ce334d615d0d94c2
+
+COCOAPODS: 1.7.2
